@@ -1,0 +1,15 @@
+{
+  "name": "bookmu",
+  "version": "1.0.0",
+  "description": "projet tuto 3 pour les mus. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "oliver thomas",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
