@@ -9,6 +9,10 @@ const bookSchema = new mongoose.Schema({
             "le titre doit etre valide"
         ]
     },
+    user : {
+        type : mongoose.Schema.Types.ObjectId,
+        ref : "users"
+    },
     author: {
         type: String,
         required: [true, "le mot de passe est requis"],

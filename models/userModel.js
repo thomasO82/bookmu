@@ -37,7 +37,13 @@ const userSchema = new mongoose.Schema({
             },
             message : "Cet email est deja utilisé"
         }
-    }
+    },
+    books : [
+        {
+            type: mongoose.Schema.Types.ObjectId,
+            ref : "books"
+        }
+    ]
 })
 
 const userModel = mongoose.model("users", userSchema)
